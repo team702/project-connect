@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>project-connect Sign Up</title>
+    <link rel="stylesheet" href="style/univ.css">
+    <style>
+        body,
+        .acrylic::before {
+            background: url('style/bgimage.jpg') center/cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>project-connect</h1>
+    </header>
+    <div class="flex-container">
+        <div class="shadow acrylic login-box">
+            <form action="" method="post">
+                Sign Up
+                <input type="text" name="name" id="name" placeholder="Your full name">
+                <input placeholder="Date of Birth" type="text" onfocus="(this.type='date')" name="dateOfBirth" id="dateOfBirth">
+                <input type="email" name="email" id="email" placeholder="E-Mail">
+                <input type="tel" name="phone" id="phone" placeholder="Phone No.">
+                <span style="font-size: 15pt;">Are you a student or a professional?</span>
+                <select name="typeOfCandidate" id="typeOfCandidate">
+                    <option value="pro">Professional</option>
+                    <option value="student">Student</option>
+                </select>
+                <input type="button" value="Next">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
